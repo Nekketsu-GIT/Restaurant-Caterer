@@ -1,0 +1,30 @@
+.plats{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.plats .category .platsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.plats .category .platsContainer .plat{
+    width: 150px;
+    margin: 10px;
+}
+
+.plats .category .platsContainer .plat .platImage{
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+.plats .category .platsContainer .plat .platImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
