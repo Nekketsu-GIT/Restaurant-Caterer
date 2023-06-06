@@ -21,7 +21,7 @@ export default function Hours({ hours }: HoursProps) {
             </div>
             <div className={styles.imageContainer}>
                 <Image
-                    src="https://via.placeholder.com/500x500"
+                    src="/hours.png"
                     alt="Hours"
                     fill
                     className={styles.image}

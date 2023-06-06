@@ -102,8 +102,8 @@ export default function Home() {
             </h2>
             <MyGallery images={[
               {
-                src: "https://via.placeholder.com/150",
-                original: "https://via.placeholder.com/150",
+                src: "/sample/plat.jpg",
+                original: "/sample/plat.jpg",
                 width: 250,
                 height: 174,
                 tags: [
@@ -113,8 +113,8 @@ export default function Home() {
                 caption: "Mafé au poulet",
               },
               {
-                src: "https://via.placeholder.com/150",
-                original: "https://via.placeholder.com/150",
+                src: "/sample/dessert.jpg",
+                original: "/sample/dessert.jpg",
                 width: 250,
                 height: 174,
                 tags: [
@@ -124,8 +124,8 @@ export default function Home() {
                 caption: "Mafé au poulet",
               },
               {
-                src: "https://via.placeholder.com/150",
-                original: "https://via.placeholder.com/150",
+                src: "/sample/entree.jpeg",
+                original: "/sample/entree.jpeg",
                 width: 250,
                 height: 174,
                 tags: [

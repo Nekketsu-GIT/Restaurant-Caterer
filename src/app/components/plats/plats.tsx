@@ -16,17 +16,17 @@ async function getPlats() {
                 {
                     name: 'Salade',
                     price: 5,
-                    image: 'https://via.placeholder.com/500x500',
+                    image: '/sample/entree.jpeg',
                 },
                 {
                     name: 'Salade',
                     price: 8,
-                    image: 'https://via.placeholder.com/500x500',
+                    image: '/sample/entree.jpeg',
                 },
                 {
                     name: 'Salade',
                     price: 4,
-                    image: 'https://via.placeholder.com/500x500',
+                    image: '/sample/entree.jpeg',
                 },
             ]
         },
@@ -37,17 +37,17 @@ async function getPlats() {
                 {
                     name: 'Mafé',
                     price: 5,
-                    image: 'https://via.placeholder.com/500x500',
+                    image: '/sample/plat.jpg',
                 },
                 {
                     name: 'Mafé',
                     price: 8,
-                    image: 'https://via.placeholder.com/500x500',
+                    image: '/sample/plat.jpg',
                 },
                 {
                     name: 'Mafé',
                     price: 4,
-                    image: 'https://via.placeholder.com/500x500',
+                    image: '/sample/plat.jpg',
                 },
             ]
         },
@@ -58,17 +58,17 @@ async function getPlats() {
                 {
                     name: 'Glace',
                     price: 5,
-                    image: 'https://via.placeholder.com/500x500',
+                    image: '/sample/dessert.jpg',
                 },
                 {
                     name: 'Glace',
                     price: 8,
-                    image: 'https://via.placeholder.com/500x500',
+                    image: '/sample/dessert.jpg',
                 },
                 {
                     name: 'Glace',
                     price: 4,
-                    image: 'https://via.placeholder.com/500x500',
+                    image: '/sample/dessert.jpg',
                 },
             ]
         },
@@ -79,12 +79,12 @@ async function getPlats() {
                 {
                     name: 'Coca',
                     price: 5,
-                    image: 'https://via.placeholder.com/500x500',
+                    image: '/sample/jus.webp',
                 },
                 {
                     name: 'Fanta',
                     price: 8,
-                    image: 'https://via.placeholder.com/500x500',
+                    image: '/sample/jus.webp',
                 },
             ]
         }
