@@ -1,6 +1,6 @@
 "use client"
 
-import styles from './plats.module.css'
+import styles from './plats.module.scss'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
@@ -117,11 +117,13 @@ export default async function Plats() {
                                         fill
                                     />
                                 </div>
-                                <div className={styles.platName}>
-                                    {plat.name}
-                                </div>
-                                <div className={styles.platPrice}>
-                                    {plat.price}€
+                                <div className={styles.platInfo}>
+                                    <div className={styles.platName}>
+                                        {plat.name}
+                                    </div>
+                                    <div className={styles.platPrice}>
+                                        {plat.price}€
+                                    </div>
                                 </div>
                             </div>
                         ))}

@@ -1,0 +1,51 @@
+.container {
+  width: 100%; /* Set container width to 100% of the parent */
+  max-width: 960px; /* Set a maximum width for the container */
+  margin: 20px auto; /* Center the container horizontally */
+  box-sizing: border-box; /* Include padding and border in the container's total width */
+}
+  
+.mainImageContainer {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  position: relative;
+
+  .mainImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .mainImageText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--secondary-color);
+    font-weight: 800;
+
+    // puut a little bit of shadow for the text
+    text-shadow: 2px 2px 4px #000000;
+    
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 3rem;
+      color: var(--accent-color);
+    }
+  }
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px 20px;
+}
+
+

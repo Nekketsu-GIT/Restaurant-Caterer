@@ -1,0 +1,43 @@
+
+.plats {
+	margin: 0 auto;
+	.category {
+		.platsContainer {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+            margin-bottom: 20px;
+			.plat {
+				width: 250px;
+				margin: 10px;
+				.platImage {
+					width: 100%;
+					height: 250px;
+					position: relative;
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+						border-radius: 12px;
+					}
+				}
+
+                .platInfo{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    .platName{
+                        font-weight: 400;
+                    }
+
+                    .platPrice{
+                        font-weight: 800;
+                        color: var(--accent-color);
+                    }
+                }
+			}
+		}
+	}
+}

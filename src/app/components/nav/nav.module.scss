@@ -5,12 +5,12 @@
     left: 0;
     width: 100%;
     z-index: 1000;
+    background-color: var(--primary-color);
 
     .menu_bar{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background-color: var(--color-background);
         padding: 1rem;
 
         @media (max-width: 768px) {
@@ -22,6 +22,11 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
+            color: var(--secondary-color);
+            font-weight: 600;
+            font-size: 1.5rem;
+            text-decoration: none;
+            transition: all 0.2s ease-in-out;
 
             @media (max-width: 768px) {
                 display: none;
@@ -35,15 +40,15 @@
 
             a {
                 text-decoration: none;
-                color: var(--color-text);
                 margin: 0 1rem;
-                font-size: 1.2rem;
                 font-weight: 600;
                 transition: all 0.2s ease-in-out;
+                color: var(--secondary-color);
 
                 &:hover {
-                    color: var(--color-primary);
+                    color: var(--accent-color);
                 }
+
             }
 
             @media (max-width: 768px) {
@@ -57,21 +62,7 @@
             justify-content: center;
             align-items: center;
 
-            button {
-                background-color: var(--color-primary);
-                color: var(--color-text);
-                border: none;
-                border-radius: 0.5rem;
-                padding: 0.5rem 1rem;
-                font-size: 1.2rem;
-                font-weight: 600;
-                cursor: pointer;
-                transition: all 0.2s ease-in-out;
-
-                &:hover {
-                    background-color: var(--color-primary-dark);
-                }
-            }
+          
         }
 
         .menu_hamburger {
@@ -109,7 +100,9 @@
         top: 0;
         left: 0;
         z-index: 1000;
-        background-color: var(--color-background);
+        background-color: var(--primary-color);
+        transition: all 0.3s ease-in-out;
+        color: var(--secondary-color);
 
         .close{
             position: absolute;
